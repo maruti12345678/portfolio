@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            header{
+                background-color: rgb(12, 12, 12);
+                width: 100%;
+                height: 100px;
+            }
+            .left{
+                float: left;
+                width: 80%;
+                height: 100px;
+            }
+            .right{
+                padding-top: 20px;
+                float: left;
+                width: 19%;
+                height: 100px;
+            }
+            img{
+                padding-left: 150px;
+                float: left;
+                width: 100px;
+                height: 100px;
+            }
+            ul{
+                float: left;
+            }
+            ul li{
+                display: inline-block;
+                padding: 20px 25px;
+            }
+            ul li a{
+                color: white;
+                text-decoration: none;
+            }
+            button{
+                background-color: rgb(29, 221, 189);
+                padding: 10px 30px;
+                font-weight: bold;
+                border: none;
+                border-radius: 2px;
+            }
+            .main{
+                width: 100%;
+                height: 650px;
+                background-color: rgb(12, 12, 12);
+            }
+            .main-left{
+                width: 40%;
+                height: 650px;
+                float: left;
+            }
+            .main-left img{
+                width: 400px;
+                height: 90%;
+                padding-top: 20px;
+            }
+            .main-right{
+                box-sizing: border-box;
+                width: 59%;
+                height: 650px;
+                float: left;
+                padding: 100px;
+                color: white;
+            }
+            h6{
+                font-size: 1.6rem;
+                color: rgb(29, 221, 189);
+                margin-bottom: 0.5rem;
+            }
+            h1{
+                font-size: 4rem;
+                font-weight: 100;
+                line-height: 1.2;
+                margin-bottom: 2rem;
+                
+            }
+            h1 span{
+                color: rgb(29, 221, 189);
+            }
+            p{
+                margin-bottom: 2rem;
+                font-weight: bold;
+                font-size: larger;
+            }
+            .btn{
+                padding: 0.6rem 2rem;
+                font-size: 1rem;
+                font-weight: 600;
+                border: 2px solid black;
+                background: transparent;
+                color: rgb(29, 221, 189);
+                border-color: rgb(29, 221, 189);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="left">
+                <img src="lion.jpg" alt="">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button>CONTACT</button>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-left">
+                <img src="handsome-young-man-in-suit.jpg" alt="">
+            </div>
+            <div class="main-right">
+                <h6>Nitish Sharma</h6>
+                <h1>I'm a Web<br> <span>Developer</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque <br> illum nam nobis, minima
+                    laudantium fugit sequi nostrum quod impedit, <br> beatae necessitatibus praesentium optio labore
+                    nemo!</p>
+                <button class="btn">DOWNLOAD CV</button>
+            </div>
+        </main>
+    </body>
+</html>
